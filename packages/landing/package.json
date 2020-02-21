@@ -1,0 +1,15 @@
+{
+  "name": "workers-monorepo-example-landing",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "wrangler build",
+    "publish": "wrangler publish"
+  },
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.0.8"
+  }
+}
